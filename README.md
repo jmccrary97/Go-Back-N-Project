@@ -13,10 +13,12 @@ This provides a way for the sender to transmit multiple frames before needing an
 
 ## Running the Project
 The following command with the respectie arguments can be used:
-./GoBackN -n <number_of_messages> -l <loss_probability> -c <corruption_probability> -t <message_delay> -d <debug_level>
+
+''' ./GoBackN -n <number_of_messages> -l <loss_probability> -c <corruption_probability> -t <message_delay> -d <debug_level> '''
 
 For example, to simulate 10,000 messages with 1% probability of loss, a 1% probability of corruption, an average delay of 1 second between messages, and the maximum debugging level, we can use:
-./GoBackN -n 10000 -l 0.01 -c 0.01 -t 100 -d 5
+
+''' ./GoBackN -n 10000 -l 0.01 -c 0.01 -t 100 -d 5 '''
 
 
 ## Project Requirement
